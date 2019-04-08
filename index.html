@@ -18,7 +18,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("https://dinagertz.github.io/TestGit/img/mac.jpg");
+  background-image: url("https://dinagertz.github.io/TestGit/img/IMG_3714.JPG");
   min-height: 100%;
 }
 
@@ -384,21 +384,7 @@ function w3_close() {
 }
 </script>
 
-<script>
-//Array of images which you want to show: Use path you want.
-var images=new Array('https://dinagertz.github.io/TestGit/img/IMG_3714.JPG','https://dinagertz.github.io/TestGit/img/IMG_3715.JPG','https://dinagertz.github.io/TestGit/img/IMG_3716.JPG','https://dinagertz.github.io/TestGit/img/IMG_3717.JPG','https://dinagertz.github.io/TestGit/img/IMG_3728.JPG');
-var nextimage=0;
-doSlideshow();
 
-function doSlideshow(){
-    if(nextimage>=images.length){nextimage=0;}
-    $('.global-header')
-    .css('background-image','url("'+images[nextimage++]+'")')
-    .fadeIn(500,function(){
-        setTimeout(doSlideshow,1000);
-    });
-}
-</script>
 
 </body>
 </html>
